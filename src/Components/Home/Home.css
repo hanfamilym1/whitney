@@ -1,0 +1,46 @@
+.swiffer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.burger{
+    width: 100vw;
+    height: 100vh;
+}
+
+.strava{
+    width: 100vw;
+    height: 100vh;
+}
+
+p.carousel-status {
+    display: none;
+}
+
+.thumbs-wrapper.axis-vertical{
+    display: none;
+}
+
+button.control-arrow.control-next {
+    width: 8%;
+}
+
+button.control-arrow.control-prev {
+    width: 8%;
+}
+
+ul.control-dots {
+    display: none;
+}
+
+.home-btn{
+    position: absolute;
+    width: 100vw;
+    z-index: 11;
+    height: 100vh;
+}
+
+.home-btn a{
+    display: none;
+    text-decoration: none;
+}
