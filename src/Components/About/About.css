@@ -1,0 +1,30 @@
+.About {
+    width: 100vw;
+    height: 100vh;
+    background-color: #54979A;
+    display: flex;
+
+}
+
+.about-me{
+    width: 50%;
+    height: 65%;
+    position: absolute;
+    /* background-color: teal; */
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 35%;
+    color: #F8F9F9;
+    font-size: 25px;
+    border: 2px solid #F8F9F9;
+}
+
+.photo{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.text-center{
+    text-align: center;
+}

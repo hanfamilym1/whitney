@@ -1,0 +1,22 @@
+.work{
+    width: 100vw;
+    height: 100vh;
+    background-color: #54979A;
+}
+
+.work-slider{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.work-slide{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+.work-slide:hover{
+    transform: scale(1.02);
+    transition: .2s ease-in-out;
+}

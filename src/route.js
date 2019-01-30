@@ -7,6 +7,7 @@ import Work from './Components/Work/Work'
 import Burger from './Components/Work/Burger/Burger'
 import Strava from './Components/Work/Strava/Strava'
 import Swiffer from './Components/Work/Swiffer/Swiffer'
+import Quasar from './Components/Work/Quasar/Quasar'
 
 export default
    
@@ -15,9 +16,9 @@ export default
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
             <Route exact path='/work/' component={Work}/>
-            <Route path='/work/:project' component={Work}/>
             <Route path='/work/burger' component={Burger}/>
             <Route path='/work/strava' component={Strava}/>
             <Route path='/work/swiffer' component={Swiffer}/>
+            <Route path='/work/quasar' component={Quasar}/>
         </Switch>
    

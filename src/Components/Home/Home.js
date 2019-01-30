@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import './Home.css'
-import Stravapic from './Strava.png'
-import Burgerpic from './Burger.png'
-import Swifferpic from './Swiffer.jpg'
+import StravaHome from './STRAVA.jpg'
+import BurgerHome from './Burger.jpg'
+import SwifferHome from './Swiffer.jpg'
+import QuasarHome from './Quasar.jpg'
 import { Link, } from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -48,6 +49,9 @@ class Home extends Component {
     goStrava=()=>{
         window.location.href = '#/work/strava'
     }
+    goQuasar=()=>{
+        window.location.href = '#/work/quasar'
+    }
 
     render() {
 
@@ -63,24 +67,27 @@ class Home extends Component {
                     onChange={this.onChange}
                     onClickThumb={this.onClickThumb}
                 >
-
-
                     <div className='home-btn' onClick={this.goBurger}>
                         {/* <Link to='/work/burger'> */}
-                        <img className='burger' src={Burgerpic} alt="" />
+                        <img className='burger' src={BurgerHome} alt="" />
                         {/* <button className='home-btn'><a href="#/work/burger">Go to my Burger King project</a></button> */}
                         {/* </Link> */}
                     </div>
                     <div className='home-img' onClick={this.goStrava}>
                         {/* <Link to='/work/strava'> */}
-                        <img className='strava' src={Stravapic} alt="" />
+                        <img className='strava' src={StravaHome} alt="" />
                         {/* <button className='home-btn'><a href='/#/work/strava'>Strava</a></button> */}
                         {/* </Link> */}
                     </div>
                     <div className='home-img' onClick={this.goSwiffer}>
                         {/* <Link to='/work/Swiffer'> */}
-                        <img className='swiffer' src={Swifferpic} alt="" />
-                        <button className='home-btn'><a href='/#/work/swiffer'>Swiffer</a></button>
+                        <img className='swiffer' src={SwifferHome} alt="" />
+                        {/* <button className='home-btn'><a href='/#/work/swiffer'>Swiffer</a></button> */}
+                        {/* </Link> */}
+                    </div>
+                    <div className='home-img' onClick={this.goQuasar}>
+                        {/* <Link to='/work/Swiffer'> */}
+                        <img className='quasar' src={QuasarHome} alt="" />
                         {/* </Link> */}
                     </div>
                 </Carousel>

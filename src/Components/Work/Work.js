@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import './Work.css'
 import { Link } from 'react-router-dom'
+import Burgerpic from './Burger.jpg'
+import Quasarpic from './Quasar.jpg'
+import Stravapic from './Strava1.jpg'
+import Swifferpic from './Swiffer.jpg'
 
 class Work extends Component {
     constructor(props) {
@@ -9,13 +13,26 @@ class Work extends Component {
     }
     render(props) {
         return (
-            <div>
-                <div>
-                    <Link to='/work/burger'><button>Burger King</button></Link>
-                    <Link to='/work/strava'><button>Strava</button></Link>
-                    <Link to='/work/swiffer'><button>Swiffer</button></Link>
+            <div class='work'>
+                <div class='work-slider'>
+                    <div class='work-slide'>
+                        <img src={Burgerpic} width='400'/>
+                        {/* <Link to='/work/burger'><button>Burger King</button></Link> */}
+                    </div>
+                    <div class='work-slide'>
+                        <img src={Stravapic} width='400'/>
+                        {/* <Link to='/work/strava'><button>Strava</button></Link> */}
+                    </div>
+                    <div class='work-slide'>
+                        <img src={Swifferpic} width='400'/>
+                        {/* <Link to='/work/swiffer'><button>Swiffer</button></Link> */}
+                    </div>
+                    <div class='work-slide'>
+                        <img src={Quasarpic} width='400'/>
+                        {/* <Link to='/work/quasar'><button>Quasar</button></Link> */}
+                    </div>
                 </div>
-                <div>
+                {/* <div>
                     {
                         this.props.match.params.project === 'swiffer' ?
                             <div>
@@ -38,7 +55,7 @@ class Work extends Component {
                                 </div>
                                 :
                                 this.props.match.params.project === 'burger' ?
-                                    <div class='Strava'>
+                                    <div class='Burger'>
                                         Burger Component
                                     <div>
                                             <h1>Burger</h1>
@@ -46,9 +63,17 @@ class Work extends Component {
                                         </div>
                                     </div>
                                     :
+                                    this.props.match.params.project === 'quasar' ?
+                                    <div class='Quasar'>
+                                        Quasar Component
+                                    <div>
+                                            <h1>Quasar</h1>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IzIlR5kWU0w" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                        </div>
+                                    </div>:
                                     null
                     }
-                </div>
+                </div> */}
             </div>
         )
     }
