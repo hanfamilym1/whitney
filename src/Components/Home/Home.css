@@ -1,20 +1,20 @@
 .Home{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .swiffer{
-    width: 100%;
+    width: 100vw;
 }
 
 .burger{
-    width: 100%;
+    width: 100vw;
 }
 
 .strava{
-    width: 100%;
+    width: 100vw;
 }
 .quasar{
-    width: 100%;
+    width: 100vw;
 }
 
 p.carousel-status {
