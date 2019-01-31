@@ -16,21 +16,23 @@
     align-items: center;
 }
 .burger-videos{
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
 }
 
 .burger-video{
-    margin-left: 10px;
-    width: 400px;
-    height: 300px;
+    margin-top: 15px;
+    width: 640px;
+    height: 280px;
 }
 
 .burger-middle{
     display: flex;
     width: 80%;
     justify-content: space-around;
-    border: 2px solid black;
 }
 
 .burger-carousel{

@@ -31,12 +31,13 @@ class Burger extends Component {
                         </div>
                         <div class='burger-videos'>
                             <div class='burger-video'>
-                                {/* <h1>The Talk</h1> */}
-                                <iframe src="https://player.vimeo.com/video/305655384" width="400" height="300" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen></iframe>
+                                <iframe src="https://player.vimeo.com/video/305655384" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                             <div class='burger-video'>
-                                {/* <h1>The Girl's Room</h1> */}
-                                <iframe src="https://player.vimeo.com/video/305655284" width="400" height="300" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen></iframe>
+                                <iframe src="https://player.vimeo.com/video/305655284" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <div class='burger-video'>
+                                <iframe src="https://player.vimeo.com/video/305655284" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <h2>Behind the Scenes</h2>

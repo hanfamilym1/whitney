@@ -23,6 +23,15 @@ class Swiffer extends Component {
                         </div>
                         <div class='swiffer-videos'>
                             <div class='swiffer-video'>
+                                <iframe src="https://player.vimeo.com/video/305390931" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <div class='swiffer-video'>
+                                <iframe src="https://player.vimeo.com/video/305390918" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <div class='swiffer-video'>
+                                <iframe src="https://player.vimeo.com/video/305390925" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <div class='swiffer-video'>
                                 <iframe src="https://player.vimeo.com/video/305390910" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>

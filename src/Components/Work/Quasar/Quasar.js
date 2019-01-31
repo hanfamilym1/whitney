@@ -33,6 +33,9 @@ class Quasar extends Component {
                         <div className='quasar-title'>
                             <h1>Quasar</h1>
                         </div>
+                        <div className='post-production'>
+                        <h3>Currently in Post Production</h3>
+                        </div>
                          {/* <div class='quasar-videos'>
                             <div class='quasar-video'>
                                  <h1>The Talk</h1> 

@@ -18,12 +18,15 @@
 }
 .swiffer-videos{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 15px;
+    width: 100vw;
 }
 
 .swiffer-video{
-    margin-left: 10px;
+    margin-top: 15px;
     width: 640px;
     height: 360px;
 }
@@ -32,7 +35,6 @@
     display: flex;
     width: 80%;
     justify-content: space-around;
-    border: 2px solid black;
 }
 
 .swiffer-carousel{
