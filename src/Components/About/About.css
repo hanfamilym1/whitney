@@ -1,7 +1,7 @@
 .About {
     width: 100vw;
     height: 100vh;
-    background-color: #54979A;
+    background-color: #FFF;
     display: flex;
 
 }
@@ -14,9 +14,9 @@
     margin: auto;
     margin-top: 10%;
     margin-left: 35%;
-    color: #F8F9F9;
+    color: black;
     font-size: 25px;
-    border: 2px solid #F8F9F9;
+    border: 2px solid black;
 }
 
 .photo{

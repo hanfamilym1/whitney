@@ -11,24 +11,41 @@ class Work extends Component {
         super(props)
 
     }
+
+    goBurger=()=>{
+        window.location.href = '#/work/burger'
+    }
+    goSwiffer=()=>{
+        window.location.href = '#/work/swiffer'
+    }
+    goStrava=()=>{
+        window.location.href = '#/work/strava'
+    }
+    goQuasar=()=>{
+        window.location.href = '#/work/quasar'
+    }
     render(props) {
         return (
             <div class='work'>
                 <div class='work-slider'>
-                    <div class='work-slide'>
-                        <img src={Burgerpic} width='400'/>
+                    <div class='work-slide' onClick={this.goBurger}>
+                        <img class='work-pic' src={Burgerpic} width='350'/>
+                        <h2>Burger King</h2>
                         {/* <Link to='/work/burger'><button>Burger King</button></Link> */}
                     </div>
-                    <div class='work-slide'>
-                        <img src={Stravapic} width='400'/>
+                    <div class='work-slide' onClick={this.goStrava}>
+                        <img class='work-pic' src={Stravapic} width='350'/>
+                        <h2>Strava</h2>
                         {/* <Link to='/work/strava'><button>Strava</button></Link> */}
                     </div>
-                    <div class='work-slide'>
-                        <img src={Swifferpic} width='400'/>
+                    <div class='work-slide' onClick={this.goSwiffer}>
+                        <img class='work-pic' src={Swifferpic} width='350'/>
+                        <h2>Swiffer</h2>
                         {/* <Link to='/work/swiffer'><button>Swiffer</button></Link> */}
                     </div>
-                    <div class='work-slide'>
-                        <img src={Quasarpic} width='400'/>
+                    <div class='work-slide' onClick={this.goQuasar}>
+                        <img class='work-pic' src={Quasarpic} width='350'/>
+                        <h2>Quasar</h2>
                         {/* <Link to='/work/quasar'><button>Quasar</button></Link> */}
                     </div>
                 </div>

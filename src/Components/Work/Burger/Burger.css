@@ -1,0 +1,51 @@
+.Burger{
+    width: 80%;
+    height: 150%;
+    background-color: #FFF;
+    top: 10%;
+    position: absolute;
+    left: 11%;
+}
+.burger-title{
+    height: 40px;
+}
+
+.burger-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burger-videos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.burger-video{
+    margin-left: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.burger-middle{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.burger-carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.burger-info{
+    margin-left: 20px;
+
+}
+
+.burger-learned{
+    width: 70%;
+}
