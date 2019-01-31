@@ -20,12 +20,11 @@ class Strava extends Component {
                         <div className='strava-title'>
                             <h1>Strava</h1>
                         </div>
-                        <div class='strava-videos'>
+                        {/* <div class='strava-videos'>
                             <div class='strava-video'>
-                                {/* <h1>The Talk</h1> */}
                                 <iframe src="https://player.vimeo.com/video/305655384" width="400" height="300" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen></iframe>
                             </div>
-                        </div>
+                        </div> */}
                         <h2>Behind the Scenes</h2>
                         <div class='strava-middle'>
                             <div class='strava-carousel'>
@@ -34,9 +33,9 @@ class Strava extends Component {
                                     infiniteLoop
                                     autoPlay
                                     emulateTouch>
-                                    <div class='strava-pic'><img src={img1} /></div>
+                                    {/* <div class='strava-pic'><img src={img1} /></div> */}
                                     <div class='strava-pic'><img src={img2} /></div>
-                                    <div class='strava-pic'><img src={img3} /></div>
+                                    {/* <div class='strava-pic'><img src={img3} /></div> */}
                                     <div class='strava-pic'><img src={img4} /></div>
                                     <div class='strava-pic'><img src={img5} /></div>
                                     <div class='strava-pic'><img src={img6} /></div>

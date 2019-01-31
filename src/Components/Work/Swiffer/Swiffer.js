@@ -23,8 +23,7 @@ class Swiffer extends Component {
                         </div>
                         <div class='swiffer-videos'>
                             <div class='swiffer-video'>
-                                {/* <h1>The Talk</h1> */}
-                                <iframe src="https://player.vimeo.com/video/305655384" width="400" height="300" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen></iframe>
+                                <iframe src="https://player.vimeo.com/video/305390910" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <h2>Behind the Scenes</h2>
@@ -36,13 +35,13 @@ class Swiffer extends Component {
                                     autoPlay
                                     emulateTouch>
                                     <div class='swiffer-pic'><img src={img1} /></div>
-                                    <div class='swiffer-pic'><img src={img2} /></div>
-                                    <div class='swiffer-pic'><img src={img3} /></div>
-                                    <div class='swiffer-pic'><img src={img4} /></div>
+                                    {/* <div class='swiffer-pic'><img src={img2} /></div> */}
+                                    {/* <div class='swiffer-pic'><img src={img3} /></div> */}
+                                    {/* <div class='swiffer-pic'><img src={img4} /></div> */}
                                     <div class='swiffer-pic'><img src={img5} /></div>
-                                    <div class='swiffer-pic'><img src={img6} /></div>
+                                    {/* <div class='swiffer-pic'><img src={img6} /></div> */}
                                     <div class='swiffer-pic'><img src={img7} /></div>
-                                    <div class='swiffer-pic'><img src={img8} /></div>
+                                    {/* <div class='swiffer-pic'><img src={img8} /></div> */}
                                     <div class='swiffer-pic'><img src={img9} /></div>
                                     {/* <div class='swiffer-pic'><img src={img10}/></div> */}
                                     {/* <div class='swiffer-pic'><img src={img11} /></div> */}

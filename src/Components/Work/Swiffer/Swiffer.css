@@ -8,6 +8,7 @@
 }
 .swiffer-title{
     height: 40px;
+    margin-bottom: 20px;
 }
 
 .swiffer-flex{
@@ -18,12 +19,13 @@
 .swiffer-videos{
     display: flex;
     justify-content: space-around;
+    margin-top: 15px;
 }
 
 .swiffer-video{
     margin-left: 10px;
-    width: 400px;
-    height: 300px;
+    width: 640px;
+    height: 360px;
 }
 
 .swiffer-middle{
@@ -39,6 +41,7 @@
     align-items: center;
     width: 400px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .swiffer-info{
