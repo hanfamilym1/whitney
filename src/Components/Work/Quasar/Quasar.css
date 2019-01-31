@@ -8,6 +8,7 @@
 }
 .quasar-title{
     height: 40px;
+    margin-bottom: 20px;
 }
 
 .quasar-flex{
@@ -39,6 +40,7 @@
     align-items: center;
     width: 400px;
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 .quasar-info{

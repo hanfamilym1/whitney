@@ -42,9 +42,14 @@ ul.control-dots {
     width: 100vw;
     z-index: 11;
     height: 100vh;
+    
 }
 
 .home-btn a{
     display: none;
     text-decoration: none;
+}
+
+.home-img{
+    cursor: pointer;
 }

@@ -67,7 +67,7 @@ class Home extends Component {
                     onChange={this.onChange}
                     onClickThumb={this.onClickThumb}
                 >
-                    <div className='home-btn' onClick={this.goBurger}>
+                    <div className='home-img' onClick={this.goBurger}>
                         {/* <Link to='/work/burger'> */}
                         <img className='burger' src={BurgerHome} alt="" />
                         {/* <button className='home-btn'><a href="#/work/burger">Go to my Burger King project</a></button> */}

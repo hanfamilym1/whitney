@@ -33,12 +33,12 @@ class Quasar extends Component {
                         <div className='quasar-title'>
                             <h1>Quasar</h1>
                         </div>
-                        <div class='quasar-videos'>
+                         {/* <div class='quasar-videos'>
                             <div class='quasar-video'>
-                                {/* <h1>The Talk</h1> */}
+                                 <h1>The Talk</h1> 
                                 <iframe src="https://player.vimeo.com/video/305655384" width="400" height="300" frameBorder="0" webkitallowfullscreen='true' mozallowfullscreen='true' allowFullScreen></iframe>
                             </div>
-                        </div>
+                        </div>  */}
                         <h2>Behind the Scenes</h2>
                         <div class='quasar-middle'>
                             <div class='quasar-carousel'>
@@ -52,9 +52,9 @@ class Quasar extends Component {
                                     <div class='quasar-pic'><img src={img3} /></div>
                                     <div class='quasar-pic'><img src={img4} /></div>
                                     <div class='quasar-pic'><img src={img5} /></div>
-                                    <div class='quasar-pic'><img src={img6} /></div>
-                                    <div class='quasar-pic'><img src={img7} /></div>
-                                    <div class='quasar-pic'><img src={img8} /></div>
+                                    {/* <div class='quasar-pic'><img src={img6} /></div> */}
+                                    {/* <div class='quasar-pic'><img src={img7} /></div> */}
+                                    {/* <div class='quasar-pic'><img src={img8} /></div> */}
                                     <div class='quasar-pic'><img src={img9} /></div>
                                     <div class='quasar-pic'><img src={img10}/></div>
                                     {/* <div class='quasar-pic'><img src={img11} /></div>        <div class='quasar-pic'><img src={img12} /></div>  */}
