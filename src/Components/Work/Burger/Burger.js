@@ -37,7 +37,7 @@ class Burger extends Component {
                                 <iframe src="https://player.vimeo.com/video/305655284" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                             <div class='burger-video'>
-                                <iframe src="https://player.vimeo.com/video/305655284" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <iframe src="https://player.vimeo.com/video/311522573" width="640" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <h2>Behind the Scenes</h2>
